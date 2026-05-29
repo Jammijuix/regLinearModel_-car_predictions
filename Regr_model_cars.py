@@ -27,7 +27,7 @@ final_fi = load_feature_importance("feature_importance.xlsx")
 #sidebar setup
 Base_dir = os.path.dirname(__file__)
 
-image_sidebar = Image.open(os.path.join(Base_dir, "pic 1.png"))
+image_sidebar = Image.open(os.path.join(Base_dir, "pic1.png"))
 st.sidebar.image(image_sidebar, width="stretch")
 st.sidebar.header("Vehicle Features")
 
@@ -64,7 +64,7 @@ def get_user_input():
     return user_data
 
 #top banner
-image_banner = Image.open(os.path.join(Base_dir, "pic 2.png"))
+image_banner = Image.open(os.path.join(Base_dir, "pic2.png"))
 st.image(image_banner, width="stretch")
 
 #centre title
